@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A8550941ED68E3600F26FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8550931ED68E3600F26FAF /* AppDelegate.swift */; };
+		7A8550961ED68E3600F26FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8550951ED68E3600F26FAF /* ViewController.swift */; };
+		7A8550991ED68E3600F26FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8550971ED68E3600F26FAF /* Main.storyboard */; };
+		7A85509C1ED68E3600F26FAF /* ZingMp3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A85509A1ED68E3600F26FAF /* ZingMp3.xcdatamodeld */; };
+		7A85509E1ED68E3600F26FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A85509D1ED68E3600F26FAF /* Assets.xcassets */; };
+		7A8550A11ED68E3600F26FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A85509F1ED68E3600F26FAF /* LaunchScreen.storyboard */; };
+		7A8550AC1ED68E3700F26FAF /* ZingMp3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8550AB1ED68E3700F26FAF /* ZingMp3Tests.swift */; };
+		7A8550B71ED68E3700F26FAF /* ZingMp3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8550B61ED68E3700F26FAF /* ZingMp3UITests.swift */; };
+		7A8550C51ED6922A00F26FAF /* logo600.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A8550C41ED6922A00F26FAF /* logo600.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A8550A81ED68E3700F26FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A8550881ED68E3600F26FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A85508F1ED68E3600F26FAF;
+			remoteInfo = ZingMp3;
+		};
+		7A8550B31ED68E3700F26FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A8550881ED68E3600F26FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A85508F1ED68E3600F26FAF;
+			remoteInfo = ZingMp3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A8550901ED68E3600F26FAF /* ZingMp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZingMp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8550931ED68E3600F26FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A8550951ED68E3600F26FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A8550981ED68E3600F26FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A85509B1ED68E3600F26FAF /* ZingMp3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZingMp3.xcdatamodel; sourceTree = "<group>"; };
+		7A85509D1ED68E3600F26FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A8550A01ED68E3600F26FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A8550A21ED68E3600F26FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8550A71ED68E3700F26FAF /* ZingMp3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZingMp3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8550AB1ED68E3700F26FAF /* ZingMp3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingMp3Tests.swift; sourceTree = "<group>"; };
+		7A8550AD1ED68E3700F26FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8550B21ED68E3700F26FAF /* ZingMp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZingMp3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8550B61ED68E3700F26FAF /* ZingMp3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingMp3UITests.swift; sourceTree = "<group>"; };
+		7A8550B81ED68E3700F26FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8550C41ED6922A00F26FAF /* logo600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo600.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A85508D1ED68E3600F26FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8550A41ED68E3700F26FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8550AF1ED68E3700F26FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A8550871ED68E3600F26FAF = {
+			isa = PBXGroup;
+			children = (
+				7A8550921ED68E3600F26FAF /* ZingMp3 */,
+				7A8550AA1ED68E3700F26FAF /* ZingMp3Tests */,
+				7A8550B51ED68E3700F26FAF /* ZingMp3UITests */,
+				7A8550911ED68E3600F26FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A8550911ED68E3600F26FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A8550901ED68E3600F26FAF /* ZingMp3.app */,
+				7A8550A71ED68E3700F26FAF /* ZingMp3Tests.xctest */,
+				7A8550B21ED68E3700F26FAF /* ZingMp3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A8550921ED68E3600F26FAF /* ZingMp3 */ = {
+			isa = PBXGroup;
+			children = (
+				7A8550931ED68E3600F26FAF /* AppDelegate.swift */,
+				7A8550951ED68E3600F26FAF /* ViewController.swift */,
+				7A8550971ED68E3600F26FAF /* Main.storyboard */,
+				7A8550C41ED6922A00F26FAF /* logo600.png */,
+				7A85509D1ED68E3600F26FAF /* Assets.xcassets */,
+				7A85509F1ED68E3600F26FAF /* LaunchScreen.storyboard */,
+				7A8550A21ED68E3600F26FAF /* Info.plist */,
+				7A85509A1ED68E3600F26FAF /* ZingMp3.xcdatamodeld */,
+			);
+			path = ZingMp3;
+			sourceTree = "<group>";
+		};
+		7A8550AA1ED68E3700F26FAF /* ZingMp3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A8550AB1ED68E3700F26FAF /* ZingMp3Tests.swift */,
+				7A8550AD1ED68E3700F26FAF /* Info.plist */,
+			);
+			path = ZingMp3Tests;
+			sourceTree = "<group>";
+		};
+		7A8550B51ED68E3700F26FAF /* ZingMp3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A8550B61ED68E3700F26FAF /* ZingMp3UITests.swift */,
+				7A8550B81ED68E3700F26FAF /* Info.plist */,
+			);
+			path = ZingMp3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A85508F1ED68E3600F26FAF /* ZingMp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8550BB1ED68E3700F26FAF /* Build configuration list for PBXNativeTarget "ZingMp3" */;
+			buildPhases = (
+				7A85508C1ED68E3600F26FAF /* Sources */,
+				7A85508D1ED68E3600F26FAF /* Frameworks */,
+				7A85508E1ED68E3600F26FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZingMp3;
+			productName = ZingMp3;
+			productReference = 7A8550901ED68E3600F26FAF /* ZingMp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A8550A61ED68E3700F26FAF /* ZingMp3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8550BE1ED68E3700F26FAF /* Build configuration list for PBXNativeTarget "ZingMp3Tests" */;
+			buildPhases = (
+				7A8550A31ED68E3700F26FAF /* Sources */,
+				7A8550A41ED68E3700F26FAF /* Frameworks */,
+				7A8550A51ED68E3700F26FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A8550A91ED68E3700F26FAF /* PBXTargetDependency */,
+			);
+			name = ZingMp3Tests;
+			productName = ZingMp3Tests;
+			productReference = 7A8550A71ED68E3700F26FAF /* ZingMp3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A8550B11ED68E3700F26FAF /* ZingMp3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8550C11ED68E3700F26FAF /* Build configuration list for PBXNativeTarget "ZingMp3UITests" */;
+			buildPhases = (
+				7A8550AE1ED68E3700F26FAF /* Sources */,
+				7A8550AF1ED68E3700F26FAF /* Frameworks */,
+				7A8550B01ED68E3700F26FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A8550B41ED68E3700F26FAF /* PBXTargetDependency */,
+			);
+			name = ZingMp3UITests;
+			productName = ZingMp3UITests;
+			productReference = 7A8550B21ED68E3700F26FAF /* ZingMp3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A8550881ED68E3600F26FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jay Siliver";
+				TargetAttributes = {
+					7A85508F1ED68E3600F26FAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					7A8550A61ED68E3700F26FAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A85508F1ED68E3600F26FAF;
+					};
+					7A8550B11ED68E3700F26FAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A85508F1ED68E3600F26FAF;
+					};
+				};
+			};
+			buildConfigurationList = 7A85508B1ED68E3600F26FAF /* Build configuration list for PBXProject "ZingMp3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A8550871ED68E3600F26FAF;
+			productRefGroup = 7A8550911ED68E3600F26FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A85508F1ED68E3600F26FAF /* ZingMp3 */,
+				7A8550A61ED68E3700F26FAF /* ZingMp3Tests */,
+				7A8550B11ED68E3700F26FAF /* ZingMp3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A85508E1ED68E3600F26FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8550A11ED68E3600F26FAF /* LaunchScreen.storyboard in Resources */,
+				7A8550C51ED6922A00F26FAF /* logo600.png in Resources */,
+				7A85509E1ED68E3600F26FAF /* Assets.xcassets in Resources */,
+				7A8550991ED68E3600F26FAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8550A51ED68E3700F26FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8550B01ED68E3700F26FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A85508C1ED68E3600F26FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A85509C1ED68E3600F26FAF /* ZingMp3.xcdatamodeld in Sources */,
+				7A8550961ED68E3600F26FAF /* ViewController.swift in Sources */,
+				7A8550941ED68E3600F26FAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8550A31ED68E3700F26FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8550AC1ED68E3700F26FAF /* ZingMp3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8550AE1ED68E3700F26FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8550B71ED68E3700F26FAF /* ZingMp3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A8550A91ED68E3700F26FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A85508F1ED68E3600F26FAF /* ZingMp3 */;
+			targetProxy = 7A8550A81ED68E3700F26FAF /* PBXContainerItemProxy */;
+		};
+		7A8550B41ED68E3700F26FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A85508F1ED68E3600F26FAF /* ZingMp3 */;
+			targetProxy = 7A8550B31ED68E3700F26FAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A8550971ED68E3600F26FAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A8550981ED68E3600F26FAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A85509F1ED68E3600F26FAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A8550A01ED68E3600F26FAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A8550B91ED68E3700F26FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A8550BA1ED68E3700F26FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A8550BC1ED68E3700F26FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZingMp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zing.ZingMp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A8550BD1ED68E3700F26FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZingMp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zing.ZingMp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A8550BF1ED68E3700F26FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZingMp3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zing.ZingMp3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZingMp3.app/ZingMp3";
+			};
+			name = Debug;
+		};
+		7A8550C01ED68E3700F26FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZingMp3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zing.ZingMp3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZingMp3.app/ZingMp3";
+			};
+			name = Release;
+		};
+		7A8550C21ED68E3700F26FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZingMp3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zing.ZingMp3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZingMp3;
+			};
+			name = Debug;
+		};
+		7A8550C31ED68E3700F26FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZingMp3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zing.ZingMp3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZingMp3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A85508B1ED68E3600F26FAF /* Build configuration list for PBXProject "ZingMp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8550B91ED68E3700F26FAF /* Debug */,
+				7A8550BA1ED68E3700F26FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A8550BB1ED68E3700F26FAF /* Build configuration list for PBXNativeTarget "ZingMp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8550BC1ED68E3700F26FAF /* Debug */,
+				7A8550BD1ED68E3700F26FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A8550BE1ED68E3700F26FAF /* Build configuration list for PBXNativeTarget "ZingMp3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8550BF1ED68E3700F26FAF /* Debug */,
+				7A8550C01ED68E3700F26FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A8550C11ED68E3700F26FAF /* Build configuration list for PBXNativeTarget "ZingMp3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8550C21ED68E3700F26FAF /* Debug */,
+				7A8550C31ED68E3700F26FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A85509A1ED68E3600F26FAF /* ZingMp3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A85509B1ED68E3600F26FAF /* ZingMp3.xcdatamodel */,
+			);
+			currentVersion = 7A85509B1ED68E3600F26FAF /* ZingMp3.xcdatamodel */;
+			path = ZingMp3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A8550881ED68E3600F26FAF /* Project object */;
+}
